@@ -1,4 +1,4 @@
-CONST MAX_FONT_SIZE = 50;
+const MAX_FONT_SIZE = 50;
 
 $("#pic").on("click", function() {
   var randomFontSize = Math.floor(Math.random() * MAX_FONT_SIZE);

@@ -1,11 +1,11 @@
 .center {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 33%;
 }
 
 .my-font-size {
-  font-size: 36;
+  font-size: 36px;
 }
 
 .my-font-color {

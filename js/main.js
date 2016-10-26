@@ -2,7 +2,7 @@ const MAX_COLOR_VAL = 255;
 
 $("#pic").on("click", function() {
   var randomColorArr = getRandomColorArray();
-  $(".my-font-color").css("color", "rgb(" + rgbArray[0] + "," + rgbArray[1] + "," + rgbArray[2] + ")");
+  $(".my-font-color").css("color", "rgb(" + randomColorArr[0] + "," + randomColorArr[1] + "," + randomColorArr[2] + ")");
 });
 
 function getRandomColorArray() {
